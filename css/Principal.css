@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 2em;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+   background-color: #62DA9A;
+}
+.CuadroPrincipal{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: stretch;
+    background-color: #FFD673;
+    border-radius: 13px;
+    
+}
+.ConPadreDatos{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.conDatos{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.inputText{
+    width: 90%;
+    height: 60%;
+    border-radius: 13px;
+    text-align: center;
+}
+.conButton{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
