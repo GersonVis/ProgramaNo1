@@ -11,7 +11,7 @@ function funOrdenar(ev) {
     let num2 = input2.value
     let num3 = input3.value
     if(num1=="" || num2=="" || num3==""){
-        mostrarTexto.innerText="Ordenar números"
+        mostrarTexto.innerText="Número mayor"
         alert("rellené los campos")
         return;
     }
